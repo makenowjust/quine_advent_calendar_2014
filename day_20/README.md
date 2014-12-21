@@ -1,6 +1,6 @@
 #day 20
 
-[Quine Advent Calendar](http://www.adventar.org/calendars/645)の19日目です。
+[Quine Advent Calendar](http://www.adventar.org/calendars/645)の20日目です。
 
 今日はVerilog HDLとVHDLでQuineを書きました。ついにプログラミング言語じゃなくなったか‥‥って感じです。
 
