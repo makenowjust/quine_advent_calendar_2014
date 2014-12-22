@@ -1,0 +1,45 @@
+name:                false
+--                   +-+------- breaking API changes
+--                   | | +----- non-breaking API additions
+--                   | | | +--- code changes with no API change
+version:             0.1.0.0
+synopsis:            A FALSE Interpreter
+description:
+  FALSE is the programming language designed by Wouter van Oortmerssen.
+  It is stack base and esoteric. Please look <http://strlen.com/false-language>.
+homepage:            https://github.com/MakeNowJust/false
+license:             MIT
+license-file:        LICENSE
+author:              TSUYUSATO Kitsune
+maintainer:          make.just.on@gmail.com
+category:            Language
+build-type:          Simple
+extra-source-files:  README
+cabal-version:       >= 1.10
+
+executable false
+  main-is:             Main.hs
+  build-depends:
+    base >=4.6 && <4.7,
+    trifecta >=1.5 && <1.6,
+    parsers >=0.12 && <0.13,
+    unordered-containers >=0.2.5 && <0.2.6,
+    mtl >=2.2 && <2.3,
+    lens >=4.6 && <4.7,
+    false >=0.1 && <0.2
+  default-language:    Haskell2010
+
+library
+  exposed-modules:
+    Language.False.Command
+    Language.False.Parser
+    Language.False.Run
+  build-depends:
+    base >=4.6 && <4.7,
+    trifecta >=1.5 && <1.6,
+    parsers >=0.12 && <0.13,
+    unordered-containers >=0.2.5 && <0.2.6,
+    mtl >=2.2 && <2.3,
+    lens >=4.6 && <4.7
+  default-language:    Haskell2010
+  
