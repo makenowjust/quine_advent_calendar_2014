@@ -1,4 +1,4 @@
-#day 21
+#day 22
 
 [Quine Advent Calendar](http://www.adventar.org/calendars/645)の22日目です。
 
