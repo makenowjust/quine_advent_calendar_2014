@@ -1,0 +1,9 @@
+using Nemerle.IO;
+def s = <#using Nemerle.IO;
+def s = <#%s#>;
+printf(<#%s#>,s,s);
+#>;
+printf(<#using Nemerle.IO;
+def s = <#%s#>;
+printf(<#%s#>,s,s);
+#>,s,s);
