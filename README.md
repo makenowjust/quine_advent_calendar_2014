@@ -2,22 +2,8 @@
 
 このリポジトリは[Quine Advent Calendar 2014](http://www.adventar.org/calendars/645)のためのリポジトリです。
 
-12/25日には`day_25`まであるといいですね。
+<del>12/25日には`day_25`まであるといいですね。</del>
+気が付いたら越えてました。
 
-ここにあるソースコードのライセンスは特に注釈がなければ、以下のものとなっています。
-
-```
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                   Version 2, December 2004
- 
-Copyright (C) 2014 TSUYUSATO Kitsune <make.just.on@gmail.com>
-
-Everyone is permitted to copy and distribute verbatim or modified
-copies of this license document, and changing it is allowed as long
-as the name is changed.
- 
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
- 
- 0. You just DO WHAT THE FUCK YOU WANT TO.
-```
+ここにあるソースコードのライセンスは特に注釈がなければ、次のURLを参照してください。
+<http://makenowjust.github.io/license/wtfpl?2014-2015>
