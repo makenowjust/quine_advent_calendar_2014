@@ -1,5 +1,0 @@
-interface Quine where {
-import Prelude;
-hiding data Prelude.IO a;
-quine 0 :: Prelude.IO ()
-}
