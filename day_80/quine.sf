@@ -1,0 +1,1 @@
+var q=«'»[0],s=';"var q=«#{q}»[0],s=#{q+s+q}#{s}".say';"var q=«#{q}»[0],s=#{q+s+q}#{s}".say
