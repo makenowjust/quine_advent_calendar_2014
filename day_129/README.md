@@ -7,4 +7,5 @@
 Quineは`JSON.stringify`であーだこーだしました。
 
 ```console
-$
+$ tsc quine.ts && node quine | diff quine.ts -
+```
