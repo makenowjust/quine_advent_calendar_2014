@@ -1,0 +1,3 @@
+#include<stdio.h>
+i=1//2#/.to_s.size;def main;yield end;class Fixnum;def *(b);end;end;def printf(s,a,b,c,r);puts'print'+(r[50..66]+(a=a.chr)+r[70..267]+a+r[273..287]+(b=b.chr)+r+b+r[306..337]).inspect;exit;end;char=1
+;main(){char*s="#include<iostream>%cauto main()->int{std::cout<<%c#include<stdio.h>%cni=1//2#/.to_s.size;def main;yield end;class Fixnum;def *(b);end;end;def printf(s,a,b,c,r);puts'print'+(r[50..66]+(a=a.chr)+r[70..267]+a+r[273..287]+(b=b.chr)+r+b+r[306..337]).inspect;exit;end;char=1%3$cn;main(){char*s=%3$c%2$c%s%3$c%2$c;printf(s,10,34,92,s);return 0;}%2$c<<std::endl;return 0;}%1$c";printf(s,10,34,92,s);return 0;}
