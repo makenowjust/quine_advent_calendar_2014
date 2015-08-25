@@ -12,4 +12,9 @@ Quineを書く上で面白かったのは、24行目の
 
 とかでしょうか。Everything is an expressionとかいうので動くんだろうなとは思ったのですが、案の定動きました。なぜここに`try ~ else ~ end`がいるのかというと、`ls(3)`がOut of Indexする可能性があるので、それに対処するためです。対処しないとそもそもコンパイルできません。Ponyは例外を`error`という構文で投げますが、`error`は例外の情報を伝えられません。なので、どちらかと言えばScalaの`Option`とかHaskellの`Either`とか、そういったものに近いのだと思います。主にメモリエラーで投げて、それ以外の例外はアクターを介したメッセージングにするとか、そういうモデルが必要なのでしょう。
 
+```console
+$ ponyc
+$ ./quine | diff quine.pony -
+```
+
 [Pony]: http://www.ponylang.org/
